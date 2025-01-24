@@ -1013,7 +1013,7 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
                                              ((TIME) == ADC_CALIBSAMPLETIME_1CYCLE)   )
 
 #define IS_ADC_CALIBRATION_SELECTION(SELECTION) (((SELECTION) == ADC_CALIBSELECTION_ONLYOFFSET)    || \
-                                                 ((SELECTION) == ADC_CALIBSELECTION_OFFSETANDLINEARITY)   )
+                                                 ((SELECTION) == ADC_CALIBSELECTION_OFFSET_LINEARITY)   )
 
 
 /** @defgroup ADC_range_verification ADC range verification

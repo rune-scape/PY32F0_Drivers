@@ -1,3 +1,6 @@
 Temp/
 .idea/
 .vscode/
+
+CMakeFiles/
+
